@@ -1,0 +1,15 @@
+# config to be excluded from repo
+gps_log.conf
+dbconnect.conf
+DBConnect/gps_dataviewer.log
+# vagrant runtime files
+.vagrant
+ubuntu-bionic-*-cloudimg-console.log
+# build files created by Makefile.pl
+Makefile
+META.yml
+MYMETA.yml
+MYMETA.json
+blib
+inc
+pm_to_blib
